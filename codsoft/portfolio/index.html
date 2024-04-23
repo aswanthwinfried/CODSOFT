@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Win Fried</div>
+        <div class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Win Fried</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toogleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toogleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toogleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toogleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile1.jpeg" alt="AswanthWin_Fried_Profile">
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Aswanthwin Fried</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('#')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://linkedin.com'">
+                <img src="./assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com'">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <div class="container">
+            <h1 class="title2">About Me</h1>
+            <div class="about-content">
+                <div class="image">
+                    <img src="./assets/about-pic.jpeg" alt="AboutPic">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat fugit repellat porro non quia ipsam suscipit provident eius deleniti libero, soluta molestias repellendus tempora enim. Cumque dignissimos laborum, et, accusantium saepe asperiores debitis ex aliquid enim, porro delectus quod.</p>
+                    <a href="" class="readmore">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"/>
+              </div>
+              <h2 class="experience-sub-title project-title">Amazon Clone Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Text to Image Converter</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+
+
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Aaruthra HomeMade Food Product</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+    </section>
+
+
+    <div id="exptit"><h1>My Experience</h1></div>
+    <section id="experience">
+
+     
+      <div class="exp">
+        <div class="com1">
+          <h2> Oasis</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores saepe quisquam sequi eligendi ut sed, sint assumenda beatae id quidem.</p>
+        <div class="duration">Duration: 1 Month</div>
+
+       <div class="butt" >  <div><a href="#"><button>Offer Letter</button> </a></div>
+        <div ><a href="#"> <button>Completion Certificate</button></a></div>
+      </div> 
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="exp">
+        <div class="com2">
+          <h2> Oasis</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores saepe quisquam sequi eligendi ut sed, sint assumenda beatae id quidem.</p>
+          <div class="duration">Duration: 1 Month</div>
+          
+          <div class="butt"> 
+          <div  ><a href="#"><button>Offer Letter</button> </a></div>
+          <div ><a href="#"> <button>Completion Certificate</button></a></div>
+
+        </div>
+
+        </div>
+        
+      </div>
+
+
+
+      <div class="exp">
+        <div class="com3">
+          <h2>Oasis </h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores saepe quisquam sequi eligendi ut sed, sint assumenda beatae id quidem.</p>
+          <div class="duration">Duration: 1 Month</div>
+         <div class="butt"><div><a href="#"><button>Offer Letter</button> </a></div>
+          <div  ><a href="#"> <button>Completion Certificate</button></a></div>
+        </div> 
+
+
+        </div>
+        
+      </div>
+
+
+
+      <div class="exp">
+        <div class="com4">
+          <h2> Oasis</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores saepe quisquam sequi eligendi ut sed, sint assumenda beatae id quidem.</p>
+        <div class="duration"> Duration: 1 Month</div>
+       
+
+        <div class="butt">
+        <div ><a href="#"><button>Offer Letter</button> </a></div>
+        <div ><a href="#"> <button>Completion Certificate</button></a></div>
+      </div>
+
+
+        </div>
+        
+      </div>
+
+
+    </section>
+
+
+    <section id="contact">
+
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="ef768ed1-37a2-4d53-b80d-16b7b77612bd">
+            <input type="text" name="name" placeholder="Enter your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your EmailId" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="Submit">Submit </button>
+         
+        </form>
+    </div>
+    </section>
+
+    <footer>
+      <div class="end">
+        <div class="endname">	&#169; Aswanthwin Fried</div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

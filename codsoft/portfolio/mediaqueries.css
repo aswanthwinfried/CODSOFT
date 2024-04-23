@@ -1,0 +1,155 @@
+@media screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    } 
+    .about-containers {
+        flex-wrap: wrap;
+      }
+    
+}
+
+@media screen and (max-width:1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+        
+    }  
+    #profile,.section-container{
+        display: block;
+
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .experience-details-container {
+        margin-top: 2rem;
+      }
+
+      .about-containers {
+        margin-top: 0;
+      }
+
+
+
+
+    .about-content{
+        flex-direction: column;
+    }
+    .image, .container{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .title2{
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+  #about{
+    margin-top: 3rem;
+  }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+      }
+
+      .about-containers {
+    flex-wrap: wrap;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+
+
+}
+
+
+@media screen and (max-width:1481px){ 
+#exptit{
+  color: black;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  margin-top: 48rem;
+}
+#experience{
+
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(250, 250, 250);
+  border: solid black;
+  margin-top: 30px;
+  height: 109.5rem;
+  border-radius: 50px;
+}
+}
+
+
+@media (max-width:800px){
+  #contact{
+    width: 420px;
+  }
+  .contact-inputs{
+      width: 80vw;
+  }
+  .contact-right{
+      display: none;
+  }
+}
+
+
+@media screen and (max-width: 645px){
+  footer{
+    width: 900px;
+  }
+  .end .endname{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+  }
+}
+
